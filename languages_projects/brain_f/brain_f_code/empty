@@ -1,0 +1,10 @@
+____INPUT____
+
++
+[     input loop
+,     input
+[->+>+<<]>[-<+>]       smart copy
+>     move to copy
+----------     check if 10
+]
+

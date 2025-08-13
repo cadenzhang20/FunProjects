@@ -1,0 +1,10 @@
+def func:
+    init(cells_used, operations):
+        cells_used = input
+        operations = {-----input-----}
+
+    def call(func):
+        return operations
+
+
+eval

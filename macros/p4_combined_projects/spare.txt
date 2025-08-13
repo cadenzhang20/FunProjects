@@ -1,0 +1,69 @@
+import pyautogui
+from time import sleep
+from datetime import datetime
+from pynput.keyboard import Listener
+
+file_loc = "macros/p4_combined_projects/log.txt"
+log = open(file_loc, "a")
+
+
+def session_start():
+    time_frame = datetime.now().strftime("Session at %-I:%M %p --- %Y/%m/%d")
+
+    log.write(f"""{time_frame}
+{"-" * len(time_frame)}
+  """)
+    log.flush()
+
+
+comment_mode = False
+# comment_mode
+# - the boolean for if the user is commenting
+# - after giving the coordinates of the mouse, comment mode turns on
+# - you then exit comment mode to take another coordinates
+
+
+def key_press(key):
+    global comment_mode
+
+    key = str(key).strip("'")
+    if key == "Key.esc":  # immediately exits the program if "esc" is pressed
+        return False
+
+    if not comment_mode:
+        # Must take in specific key, in this case "right alt", to turn on comment mode
+        if key == "Key.alt_r":
+            mouse_pos = list(pyautogui.position())
+
+            # Writes the position to logs
+            log.write(f"[{mouse_pos[0]:0>4}, {mouse_pos[1]:0>3}]: \n    ")
+            log.flush()
+
+            comment_mode = True
+    else:
+        if key == "Key.alt_r":  # "right alt" must be pressed to leave comment mode
+            comment_mode = False
+            log.write("\n  ")
+            log.flush()
+            return
+
+        if key == "Key.enter":
+            key = "\n    "
+        elif key == "Key.space":
+            key = " "
+        elif key == "Key.shift":
+            key = ""
+
+        log.write(f"{key}")
+
+
+def key_release(key):
+    pass
+
+
+session_start()
+with Listener(on_press=key_press, on_release=key_release) as li:
+    li.join()
+
+log.write(":: SESSION ENDED ::  \n")
+log.close()

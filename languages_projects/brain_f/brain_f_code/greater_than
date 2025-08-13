@@ -1,0 +1,23 @@
+def greater_than:
+    cells_used = 6
+    function_type = comparison
+    input_cell = (num_1: 3, num_2: 4)
+    output_cell = (2)
+
+    parameters:
+        c[1] = 1
+
+/*
+outputs 1 if the num_1 is greater num_2
+outputs 0 if the num_2 is greater num_1
+*/
+
+parameters
+{
+>[-]+>>     /* +++>++++++++< */
+}
+
+function
+{
+[->[->]<<]+<<[<]>>
+}

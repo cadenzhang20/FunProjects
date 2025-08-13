@@ -1,0 +1,135 @@
+Last updated Friday, March 1st, 2024
+
+First three rules below for building left-side triangle
+
+# top parts
+    > 0
+    0 0 0
+    0 0 1
+    0 0 1
+    = 2
+
+    # top parts secondary condition
+        > 0
+        0 0 2
+        0 0 1
+        0 0 1
+        = 2
+
+# middle parts
+    > 0
+    0 0 1
+    0 0 1
+    0 0 1
+    = 1
+
+# bottom parts
+    > 0
+    0 0 1
+    0 0 1
+    0 0 0
+    = 1
+
+These conditions are used for building up the rest of the square
+
+# building second square condition
+    # first condition
+        > 0
+        0 0 0
+        0 0 2
+        0 2 1
+        = 2
+
+    # second condition
+        > 0
+        0 0 2
+        0 0 2
+        0 2 1
+        = 2
+
+    # third condition
+        > 0
+        0 0 0
+        0 0 2
+        0 2 2
+        = 2
+
+    # forth condition
+        > 0
+        0 0 2
+        0 0 2
+        0 2 2
+        = 2
+
+# Square conversion condition
+    # first condition
+        > 1
+        2 2 1
+        2 1 1
+        1 1 1
+        = 2
+
+        > 1
+        2 2 2
+        2 1 1
+        1 1 1
+        = 2
+
+    # second condition
+        > 1
+        0 2 1
+        0 1 1
+        0 0 0
+        = 2
+
+        > 1
+        2 2 2
+        2 1 1
+        2 1 1
+        = 2
+
+        > 1
+        2 2 1
+        2 1 1
+        0 0 0
+        = 2
+
+        > 1
+        2 2 0
+        2 1 0
+        0 0 0
+        = 2
+
+    # third condition
+        > 1
+        0 0 0
+        2 1 0
+        1 1 0
+        = 2
+
+        > 1
+        2 2 0
+        2 1 0
+        2 1 0
+        = 2
+
+# Funny Rule
+    > 2
+    2 2 2
+    2 2 2
+    2 2 2
+    = 3
+
+# Funny Rule 2
+    > 2
+    3 2 3
+    2 2 2
+    3 2 3
+    = 3
+
+# Funny Rule 3
+    > 2
+    2 3 2
+    3 2 3
+    2 3 2
+    = 4

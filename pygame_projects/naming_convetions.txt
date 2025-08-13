@@ -1,0 +1,28 @@
+NAMING CONVENTIONS
+
+everything is formatted as:
+ - three-letter code
+ - underscore
+ - name
+
+for example:
+ - lst_player_items
+ - dct_item_prices
+
+ENCODING:
+  lst: list
+  set: set
+  dct: dictionary
+  tup: tuple
+
+  arr: array/2d array
+
+  ctr: counter
+  bol: boolean
+
+  glb: global
+  loc: local/temporary variable
+  cst: constant
+
+  obj: object
+

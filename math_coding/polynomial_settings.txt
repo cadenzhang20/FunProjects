@@ -1,0 +1,11 @@
+Variables
+maximum_a:
+maximum_b:
+maximum_c:
+maximum_d:
+
+a_is_negative: either
+b_is_negative: either
+c_is_negative:
+d_is_negative:
+

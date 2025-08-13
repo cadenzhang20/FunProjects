@@ -1,0 +1,25 @@
+def if_zero {
+    cells_used = 3
+    function_type = comparison
+    input_cell = {num_1: 0}
+    output_cell = {0}
+
+    parameters:
+        c[2] = 1
+
+
+    /*
+    outputs 1 if cell is zero
+    outputs 0 if cell is non-zero
+    */
+
+    parameters
+    {
+    >>[-]+<<    /* ++++ */
+    }
+
+    function
+    {
+    [[-]->]>[<]<+
+    }
+}

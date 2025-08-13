@@ -1,0 +1,20 @@
+macro_builder.py
+
+the program will take in a text file, and run the macro based on the lines written
+
+how it will work:
+  - looks at three different section
+  - will execute the first part on startup
+  - will repeatedly execute the middle part
+    - until stopped
+  - will safely end of the program
+
+how writing these files will work:
+  needs to:
+  - have something to differentiate between the 3 sections
+  - move to a given mouse coordinate
+  - be able to wait for a duration of time
+  - scroll for an amount
+  - check screen color
+  - drag mouse
+

@@ -1,0 +1,30 @@
+BrainF 2.0
+made by Caden
+
+Table of contents
+1. Overview and Ideas
+2. Syntax
+    1. Comments
+3. Functions
+    1. Parameters
+    2. Function: BrainF
+
+
+1. Overview ---------------------------------------------
+This is a fun project. Plans are under progress.
+The end program will take in higher-level code and parse to the lower-level BrainF.
+
+Some future ideas include:
+- paged memory
+- left to right by program depth
+- having "compiler" actions and "BrainF" actions (like: move(2) vs >>)
+
+2. Syntax ---------------------------------------------
+Dunno yet
+
+2.1 Comments ---------------
+They are typed as /* comment_information */
+
+3. Functions ---------------------------------------------
+Everything will be built upon functions.
+Functions take up some cells, have input cells, output cells, and have parameters too.

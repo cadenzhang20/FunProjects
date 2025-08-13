@@ -1,0 +1,137 @@
+Session at 2:31 PM --- 2024/02/10
+---------------------------------
+  [0483, 608]: 
+    this is the host key
+  [0620, 441]:
+    pyautogui.scroll(-30)
+    here, after scrolling to the bottom, click here for racing
+  [1192, 792]: 
+    this is the next host key
+  [1033, 793]:
+    pyautogui.scroll(-10)
+    scroll to the bottom
+    click here to add a zero
+    sets the question count to 70
+  [0722, 308]: 
+    This is the final host now button
+  [1333, 238]: 
+    The copy join link button
+
+    after this, a new tab must be opened
+    and then typing in a character and then pressing "enter" for a name is required
+
+    after this, switching back the previous tab is necessary
+  [1120, 381]: 
+    This is the location of the start button
+
+    after this, switching back the player tab is necessary
+  [0724, 579]: 
+    This is the location of the "ok" button
+  [0361, 615]: 
+    The location for the first answer button
+  [0716, 396]: 
+    The position of the "next" button, given sometimes due to powerups
+  [0717, 556]: 
+    The location of the daily wheel
+  [0719, 723]: 
+    The location of the next button for the wheel
+  [0719, 621]: 
+    The location of the thanks button after compiling rewards
+  [1337, 173]: 
+    The location of the play again button after the game is fully over
+  [0617, 599]: 
+    Back to host tab
+    The location of the "Yes!" for play again
+    This allows the host to start up a match with the same id
+
+    serving another purpose on The player tab
+    The player can now agree to the hosts invitation
+    this doesn't work
+  [0824, 596]: 
+    The location of the "No" for play again
+    works on both player and host tab
+  :: SESSION ENDED ::
+
+Session at 5:32 PM --- 2024/02/10
+---------------------------------
+  [0430, 050]:
+    location of second (player) tab
+    drag half screen width down
+  [0000, 700]:
+    an example of a valid left edge
+    drag this to the next point
+  [1000, 700]:
+    let go here
+  :: SESSION ENDED ::  
+
+Session at 6:32 PM --- 2024/02/10
+---------------------------------
+  [0162, 090]: 
+    The address bar
+  :: SESSION ENDED ::
+
+Session at 6:45 PM --- 2024/02/10
+---------------------------------
+  [0971, 212]: 
+    the big code to double-click
+  [1086, 816]: 
+    the place to insert to the code
+    then press enter
+  [1069, 563]: 
+    Then location for the random names setting
+  :: SESSION ENDED ::  
+
+Session at 6:54 PM --- 2024/02/10
+---------------------------------
+  [0972, 219]: 
+    First copy loc
+  [0977, 266]: 
+    Second copy loc
+
+    it was moves about 50px
+  :: SESSION ENDED ::  
+
+Session at 7:10 PM --- 2024/02/10
+---------------------------------
+  [1128, 785]: 
+    This is the okay button
+    The player tab needs to click this
+  [1128, 877]: 
+    This is the 4th answer
+    also account for special location clicks
+  :: SESSION ENDED ::
+
+Session at 7:52 PM --- 2024/02/10
+---------------------------------
+  [1342, 578]: 
+    A nice, play again link for the player
+  [0615, 603]: 
+    A nice, play again link for the host
+
+    after this, positions are set back to 1
+  :: SESSION ENDED ::
+
+Session at 8:42 PM --- 2024/02/10
+---------------------------------
+  [1229, 802]: 
+    The no button
+  :: SESSION ENDED ::
+
+Session at 9:55 AM --- 2024/02/20
+---------------------------------
+  [0368, 369]: 
+    Top left corner
+  [1026, 355]: 
+    Top right corner
+  [0325, 693]: 
+    Bottom left corner
+  [1145, 674]: 
+    Bottom right corner
+  :: SESSION ENDED ::
+
+Session at 9:28 AM --- 2024/10/18
+---------------------------------
+  [0194, 450]: 
+    Location of the tab pulled halfway down on format tabs
+  :: SESSION ENDED ::
+
